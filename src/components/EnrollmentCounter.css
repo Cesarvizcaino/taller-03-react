@@ -1,0 +1,56 @@
+.enrollment {
+  background-color: var(--color-dark);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.enrollment__title {
+  color: white;
+  font-size: 1.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.enrollment__subtitle {
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+.enrollment__counter {
+  display: inline-flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--color-dark-2);
+  padding: 1.5rem 3rem;
+  border-radius: 16px;
+}
+
+.enrollment__btn {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-accent);
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enrollment__btn:hover {
+  filter: brightness(1.1);
+}
+
+.enrollment__count {
+  color: var(--color-accent);
+  font-size: 2.2rem;
+  font-weight: 700;
+  min-width: 2ch;
+  text-align: center;
+}
+
+.enrollment__label {
+  color: var(--color-text-muted);
+  margin-top: 1.2rem;
+}
