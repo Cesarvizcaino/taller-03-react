@@ -1,0 +1,25 @@
+.not-found {
+  text-align: center;
+  padding: 6rem 2rem;
+  min-height: 60vh;
+}
+
+.not-found__code {
+  font-size: 4rem;
+  color: var(--color-accent);
+}
+
+.not-found__text {
+  color: #5a6478;
+  margin: 1rem 0 2rem 0;
+}
+
+.not-found__link {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.not-found__link:hover {
+  text-decoration: underline;
+}

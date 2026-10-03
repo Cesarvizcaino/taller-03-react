@@ -27,3 +27,8 @@
 .navbar__links a:hover {
   color: var(--color-accent);
 }
+
+.navbar__links a.active {
+  color: var(--color-accent);
+  font-weight: 600;
+}
